@@ -4,6 +4,19 @@ html, body {
   padding: 0;
 }
 
+:root {
+  --mustard: #e09f3e;
+  --red: #9e2a2b;
+}
+
+.bg-mustard {
+  background: var(--mustard);
+}
+
+.text-red {
+  color: var(--red);
+}
+
 .save-note {
   display: none;
 }
