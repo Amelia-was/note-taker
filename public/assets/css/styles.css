@@ -17,6 +17,17 @@ html, body {
   color: var(--red);
 }
 
+.active-note {
+  border-radius: 0 !important;
+  border-left: 10px solid var(--mustard) !important;
+}
+
+li:hover {
+  border-radius: 0 !important;
+  border-left: 10px solid var(--mustard) !important;
+  transition: all 0.3s ease-in-out;
+}
+
 .save-note {
   display: none;
 }

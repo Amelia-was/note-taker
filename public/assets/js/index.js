@@ -59,6 +59,8 @@ const renderActiveNote = () => {
     noteTitle.value = activeNote.title;
     noteText.value = activeNote.text;
   } else {
+    noteTitle.removeAttribute('readonly');
+    noteText.removeAttribute('readonly');
     noteTitle.value = '';
     noteText.value = '';
   }
@@ -96,6 +98,16 @@ const handleNoteDelete = (e) => {
 // Sets the activeNote and displays it
 const handleNoteView = (e) => {
   e.preventDefault();
+
+  // remove active-note border 
+  let prevActiveNote = document.querySelector('.active-note');
+  if (prevActiveNote) {
+    prevActiveNote.classList.remove('active-note');
+  };
+
+  // add border to active note
+  e.target.parentElement.classList.add('active-note');
+
   activeNote = JSON.parse(e.target.parentElement.getAttribute('data-note'));
   renderActiveNote();
 };
