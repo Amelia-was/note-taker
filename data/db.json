@@ -2,18 +2,8 @@
   "notes": [
     {
       "title": "Note 1",
-      "text": "Here is some text.",
-      "id": "aa596481-c375-45d3-813e-55fee53e421d"
-    },
-    {
-      "title": "Note 2",
-      "text": "Here is some more text.",
-      "id": "fc57c98e-4ac1-4266-9878-c38bdb29eabd"
-    },
-    {
-      "title": "Note 3",
-      "text": "Lorem Ipsum.",
-      "id": "8387c8a3-8d01-4c2e-88d4-0ae144d786af"
+      "text": "some stuff",
+      "id": "51a5f48d-ac18-4560-96c7-fb001b24a2ef"
     }
   ]
 }
