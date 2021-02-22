@@ -2,7 +2,7 @@
 
 ## Description
 
-A simple note taking app. Users can write notes which are saved to a list in the sidebar. To take a note, click the pencil icon and blank title and text field can be filled out. Notes can be saved by clicking the save icon in the top right. To view a saved note, click one of the saved notes on the left-hand side. Notes can be deleted by clicking the trash can icon. 
+A simple note taking app. Users can write notes which are saved to a list in the sidebar. To take a note, click the pencil icon and a blank title and text field can be filled out. Notes can be saved by clicking the save icon in the top right. To view a saved note, click one of the saved notes on the left-hand side. Notes can be deleted by clicking the trash can icon. 
 
 The app runs on a node server and is deployed via heroku.
 
